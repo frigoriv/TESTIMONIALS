@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 22 Jun 2024 07:47:29 at https://testimonial.themesawesome.com/unique-opatbelas-carousel/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://testimonial.themesawesome.com/unique-opatbelas-carousel/ -O1 "F:\VS CODE\TANISH THEME\TESTIMONIALS\TESTIMONIALS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-Regular.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-Light.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-SemiBold.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-Black.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-Bold.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-ExtraBold.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Forbidden" (403) at link https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/fonts/Poppins-Medium.eot? (from https://d3gufdrln3j6x.cloudfront.net/wp-content/themes/nonthing/style.css?x12883&ver=6.5.4)
+07:47:47	Error: 	"Not Found" (404) at link https://testimonial.themesawesome.com/unique-opatbelas-carousel/e (from https://d3gufdrln3j6x.cloudfront.net/wp-content/plugins/testimonial-awesome-pro/public/js/swiper.min.js?x12883&ver=6.5.4)
+07:47:47	Error: 	"Not Found" (404) at link https://testimonial.themesawesome.com/unique-opatbelas-carousel/this.params.url (from https://d3gufdrln3j6x.cloudfront.net/wp-content/plugins/testimonial-awesome-pro/public/js/swiper.min.js?x12883&ver=6.5.4)
+07:47:47	Error: 	"Not Found" (404) at link https://testimonial.themesawesome.com/unique-opatbelas-carousel/-negative.svg (from https://d3gufdrln3j6x.cloudfront.net/wp-content/plugins/elementor/assets/js/frontend.min.js?x12883&ver=3.22.1)
+07:47:47	Error: 	"Not Found" (404) at link https://testimonial.themesawesome.com/unique-opatbelas-carousel/OPR/ (from https://d3gufdrln3j6x.cloudfront.net/wp-content/plugins/elementor/assets/js/frontend.min.js?x12883&ver=3.22.1)
+07:47:47	Error: 	"Not Found" (404) at link https://testimonial.themesawesome.com/unique-opatbelas-carousel/window.location.href (from https://d3gufdrln3j6x.cloudfront.net/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?x12883&ver=3.22.0)
+
+HTTrack Website Copier/3.49-2 mirror complete in 18 seconds : 76 links scanned, 62 files written (4006531 bytes overall) [2744594 bytes received at 152477 bytes/sec], 1741011 bytes transferred using HTTP compression in 33 files, ratio 18%, 12.6 requests per connection
+(12 errors, 0 warnings, 0 messages)

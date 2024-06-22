@@ -1,0 +1,1139 @@
+/*
+Theme Name: Nonthing
+Theme URI: https://themesawesome.com
+Author: Themes Awesome
+Author URI: https://themesawesome.com
+Text Domain: nonthing
+Description: Nothning
+Tags: left-sidebar, custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+Version: 1.0
+License:      GNU General Public License V2
+License URI:      license.txt
+-----------------------------------------------------------------------------------
+	1. Nothing
+-----------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Poppins';
+	/*src: url('fonts/Poppins-Regular.eot');*/
+	src: url('fonts/Poppins-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Poppins-Regular.woff2') format('woff2'),
+		url('fonts/Poppins-Regular.woff') format('woff'),
+		url('fonts/Poppins-Regular.ttf') format('truetype'),
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+		/*src: url('fonts/Poppins-Light.eot');*/
+		src: url('fonts/Poppins-Lightd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-Light.woff2') format('woff2'),
+				url('fonts/Poppins-Light.woff') format('woff'),
+				url('fonts/Poppins-Light.ttf') format('truetype'),
+		font-weight: 300;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+		/*src: url('fonts/Poppins-SemiBold.eot');*/
+		src: url('fonts/Poppins-SemiBoldd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+				url('fonts/Poppins-SemiBold.woff') format('woff'),
+				url('fonts/Poppins-SemiBold.ttf') format('truetype'),
+		font-weight: 600;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+		/*src: url('fonts/Poppins-Black.eot');*/
+		src: url('fonts/Poppins-Blackd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-Black.woff2') format('woff2'),
+				url('fonts/Poppins-Black.woff') format('woff'),
+				url('fonts/Poppins-Black.ttf') format('truetype'),
+		font-weight: 900;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+		/*src: url('fonts/Poppins-Bold.eot');*/
+		src: url('fonts/Poppins-Boldd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-Bold.woff2') format('woff2'),
+				url('fonts/Poppins-Bold.woff') format('woff'),
+				url('fonts/Poppins-Bold.ttf') format('truetype'),
+		font-weight: bold;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+		/*src: url('fonts/Poppins-ExtraBold.eot');*/
+		src: url('fonts/Poppins-ExtraBoldd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+				url('fonts/Poppins-ExtraBold.woff') format('woff'),
+				url('fonts/Poppins-ExtraBold.ttf') format('truetype'),
+		font-weight: 800;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Poppins';
+	 /* src: url('fonts/Poppins-Medium.eot');*/
+		src: url('fonts/Poppins-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+				url('fonts/Poppins-Medium.woff2') format('woff2'),
+				url('fonts/Poppins-Medium.woff') format('woff'),
+				url('fonts/Poppins-Medium.ttf') format('truetype'),
+		font-weight: 500;
+		font-style: normal;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  1. Nothing
+/*-----------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	 v2.0 | 20110126
+	 License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+}
+
+body {
+	word-wrap: break-word;
+	-ms-word-wrap: break-word;
+	line-height: 1.6;
+	font-family: 'Poppins';
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	line-height: 1.4;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 42px;
+	line-height: 1.125;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.25;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 1.375;
+}
+
+h6 {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*ol, ul {
+	list-style: none;
+}*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+pre {
+	font-size: 16px;
+	white-space: pre;
+	word-wrap: normal;
+	overflow-x: scroll;
+	line-height: 1.6;
+	margin: 1em 0;
+}
+
+figure {
+	max-width: 100%;
+	height: auto;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1080px;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Base Media Query
+/*-----------------------------------------------------------------------------------*/
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1080px;
+    }
+}
+
+/* Mobile first layout SmartMenus Core CSS (it's not recommended editing these rules)
+	 You need this once per page no matter how many menu trees or different themes you use.
+-------------------------------------------------------------------------------------------*/
+
+.sm,.sm ul,.sm li{display:block;list-style:none;margin:0;padding:0;line-height:normal;direction:ltr;text-align:left;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.sm-rtl,.sm-rtl ul,.sm-rtl li{direction:rtl;text-align:right;}
+.sm>li>h1,.sm>li>h2,.sm>li>h3,.sm>li>h4,.sm>li>h5,.sm>li>h6{margin:0;padding:0;}
+.sm ul{display:none;}
+.sm li,.sm a{position:relative;}
+.sm a{display:block;}
+.sm a.disabled{cursor:not-allowed;}
+.sm:after{content:"\00a0";display:block;height:0;font:0px/0 serif;clear:both;visibility:hidden;overflow:hidden;}
+.sm,.sm *,.sm *:before,.sm *:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+/*
+ You probably do not need to edit this at all.
+
+ Add some SmartMenus required styles not covered in Bootstrap 3's default CSS.
+ These are theme independent and should work with any Bootstrap 3 theme mod.
+*/
+/* sub menus arrows on desktop */
+.navbar-nav:not(.sm-collapsible) ul .caret {
+	position: absolute;
+	right: 0;
+	margin-top: 6px;
+	margin-right: 15px;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px dashed;
+}
+.navbar-nav:not(.sm-collapsible) ul a.has-submenu {
+	padding-right: 30px;
+}
+/* make sub menu arrows look like +/- buttons in collapsible mode */
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret {
+	position: absolute;
+	right: 0;
+	margin: -3px 15px 0 0;
+	padding: 0;
+	width: 32px;
+	height: 26px;
+	line-height: 24px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+.navbar-nav.sm-collapsible .caret:before {
+	content: '+';
+	font-family: monospace;
+	font-weight: bold;
+}
+.navbar-nav.sm-collapsible .open > a > .caret:before {
+	content: '-';
+}
+.navbar-nav.sm-collapsible a.has-submenu {
+	padding-right: 50px;
+}
+/* revert to Bootstrap's default carets in collapsible mode when the "data-sm-skip-collapsible-behavior" attribute is set to the ul.navbar-nav */
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret, .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {
+	position: static;
+	margin: 0 0 0 2px;
+	padding: 0;
+	width: 0;
+	height: 0;
+	border-top: 4px dashed;
+	border-right: 4px solid transparent;
+	border-bottom: 0;
+	border-left: 4px solid transparent;
+}
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret:before {
+	content: '' !important;
+}
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] a.has-submenu {
+	padding-right: 15px;
+}
+/* scrolling arrows for tall menus */
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	height: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.navbar-nav span.scroll-up-arrow, .navbar-nav span.scroll-down-arrow {
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-top: 7px dashed transparent;
+	border-right: 7px dashed transparent;
+	border-bottom: 7px solid;
+	border-left: 7px dashed transparent;
+}
+.navbar-nav span.scroll-down-arrow {
+	top: 6px;
+	border-top: 7px solid;
+	border-right: 7px dashed transparent;
+	border-bottom: 7px dashed transparent;
+	border-left: 7px dashed transparent;
+}
+/* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
+.navbar-nav.sm-collapsible ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul .dropdown-menu .dropdown-header {
+	padding-left: 35px;
+}
+.navbar-nav.sm-collapsible ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul .dropdown-menu .dropdown-header {
+	padding-left: 45px;
+}
+.navbar-nav.sm-collapsible ul ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul ul .dropdown-menu .dropdown-header {
+	padding-left: 55px;
+}
+.navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu > li > a,
+.navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+	padding-left: 65px;
+}
+/* fix SmartMenus sub menus auto width (subMenusMinWidth and subMenusMaxWidth options) */
+.navbar-nav .dropdown-menu > li > a {
+	white-space: normal;
+}
+.navbar-nav ul.sm-nowrap > li > a {
+	white-space: nowrap;
+}
+.navbar-nav.sm-collapsible ul.sm-nowrap > li > a {
+	white-space: normal;
+}
+/* fix .navbar-right subs alignment */
+.navbar-right ul.dropdown-menu {
+	left: 0;
+	right: auto;
+}
+.sm-clean a.current {
+	color: #009a67;
+}
+.sm-clean a.disabled {
+	color: #bbbbbb;
+}
+.sm-clean a.has-submenu {
+	padding-right: 33px;
+}
+.sm-clean a span.sub-arrow {
+	top: 50%;
+	margin-top: -2px;
+	right: 7px;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-style: solid dashed dashed dashed;
+	border-color: #555555 transparent transparent transparent;
+	background: transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+.sm-clean a span.sub-arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	left: auto;
+	right: 4px;
+	width: 34px;
+	height: 34px;
+	overflow: hidden;
+	font: bold 16px/34px monospace !important;
+	text-align: center;
+	text-shadow: none;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.sm-clean a.highlighted span.sub-arrow:before {
+	display: block;
+	content: '-';
+}
+.sm-clean li {
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-clean > li:first-child {
+	border-top: 0;
+}
+.sm-clean ul {
+	background: rgba(162, 162, 162, 0.1);
+}
+.sm-clean ul a, .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active {
+	font-size: 14px;
+	border-left: 8px solid transparent;
+}
+.sm-clean ul ul a,
+.sm-clean ul ul a:hover,
+.sm-clean ul ul a:focus,
+.sm-clean ul ul a:active {
+	border-left: 16px solid transparent;
+}
+.sm-clean ul ul ul a,
+.sm-clean ul ul ul a:hover,
+.sm-clean ul ul ul a:focus,
+.sm-clean ul ul ul a:active {
+	border-left: 24px solid transparent;
+}
+.sm-clean ul ul ul ul a,
+.sm-clean ul ul ul ul a:hover,
+.sm-clean ul ul ul ul a:focus,
+.sm-clean ul ul ul ul a:active {
+	border-left: 32px solid transparent;
+}
+.sm-clean ul ul ul ul ul a,
+.sm-clean ul ul ul ul ul a:hover,
+.sm-clean ul ul ul ul ul a:focus,
+.sm-clean ul ul ul ul ul a:active {
+	border-left: 40px solid transparent;
+}
+
+@media (min-width: 769px) {
+	/* Switch to desktop layout
+	-----------------------------------------------
+		 These transform the menu tree from
+		 collapsible to desktop (navbar + dropdowns)
+	-----------------------------------------------*/
+	/* start... (it's not recommended editing these rules) */
+	.sm-clean ul {
+		position: absolute;
+		width: 12em;
+	}
+
+	.sm-clean li {
+		float: left;
+	}
+
+	.sm-clean.sm-rtl li {
+		float: right;
+	}
+
+	.sm-clean ul li, .sm-clean.sm-rtl ul li, .sm-clean.sm-vertical li {
+		float: none;
+	}
+
+	.sm-clean a {
+		white-space: nowrap;
+	}
+
+	.sm-clean ul a, .sm-clean.sm-vertical a {
+		white-space: normal;
+	}
+
+	.sm-clean .sm-nowrap > li > a, .sm-clean .sm-nowrap > li > :not(ul) a {
+		white-space: nowrap;
+	}
+
+	/* ...end */
+	.sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
+		color: #009a67;
+	}
+	.sm-clean a.current {
+		color: #009a67;
+	}
+	.sm-clean a.disabled {
+		color: #bbbbbb;
+	}
+	.sm-clean li {
+		border-top: 0;
+	}
+	.sm-clean ul {
+		padding: 15px 0;
+		background: white;
+		-webkit-border-radius: 0 !important;
+		-moz-border-radius: 0 !important;
+		-ms-border-radius: 0 !important;
+		-o-border-radius: 0 !important;
+		border-radius: 0 !important;
+		-webkit-box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+		z-index: 10;
+	}
+	.sm-clean ul a, .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+		border: 0 !important;
+		padding: 5px 25px;
+		color: #555555;
+	}
+	.sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+		background: transparent;
+		color: #009a67;
+	}
+	.sm-clean ul a.current {
+		color: #009a67;
+	}
+	.sm-clean ul a.disabled {
+		background: white;
+		color: #cccccc;
+	}
+	.sm-clean ul a.has-submenu {
+		padding-right: 30px;
+	}
+	.sm-clean ul a span.sub-arrow {
+		right: 5px;
+		top: 50%;
+		margin-top: -5px;
+		border-width: 5px;
+		border-style: dashed dashed dashed solid;
+		border-color: transparent transparent transparent #555555;
+	}
+	.sm-clean span.scroll-up,
+	.sm-clean span.scroll-down {
+		position: absolute;
+		display: none;
+		visibility: hidden;
+		overflow: hidden;
+		background: white;
+		height: 20px;
+	}
+	.sm-clean span.scroll-up:hover,
+	.sm-clean span.scroll-down:hover {
+		background: #eeeeee;
+	}
+	.sm-clean span.scroll-up:hover span.scroll-up-arrow, .sm-clean span.scroll-up:hover span.scroll-down-arrow {
+		border-color: transparent transparent #009a67 transparent;
+	}
+	.sm-clean span.scroll-down:hover span.scroll-down-arrow {
+		border-color: #009a67 transparent transparent transparent;
+	}
+	.sm-clean span.scroll-up-arrow, .sm-clean span.scroll-down-arrow {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -6px;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		border-width: 6px;
+		border-style: dashed dashed solid dashed;
+		border-color: transparent transparent #555555 transparent;
+	}
+	.sm-clean span.scroll-down-arrow {
+		top: 8px;
+		border-style: solid dashed dashed dashed;
+		border-color: #555555 transparent transparent transparent;
+	}
+	.sm-clean.sm-rtl a.has-submenu {
+		padding-right: 12px;
+		padding-left: 24px;
+	}
+	.sm-clean.sm-rtl a span.sub-arrow {
+		right: auto;
+		left: 12px;
+	}
+	.sm-clean.sm-rtl.sm-vertical a.has-submenu {
+		padding: 10px 20px;
+	}
+	.sm-clean.sm-rtl.sm-vertical a span.sub-arrow {
+		right: auto;
+		left: 8px;
+		border-style: dashed solid dashed dashed;
+		border-color: transparent #555555 transparent transparent;
+	}
+	.sm-clean.sm-rtl > li > ul:before {
+		left: auto;
+		right: 30px;
+	}
+	.sm-clean.sm-rtl > li > ul:after {
+		left: auto;
+		right: 31px;
+	}
+	.sm-clean.sm-rtl ul a.has-submenu {
+		padding: 10px 20px !important;
+	}
+	.sm-clean.sm-rtl ul a span.sub-arrow {
+		right: auto;
+		left: 8px;
+		border-style: dashed solid dashed dashed;
+		border-color: transparent #555555 transparent transparent;
+	}
+	.sm-clean.sm-vertical {
+		padding: 10px 0;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.sm-clean.sm-vertical a {
+		padding: 10px 20px;
+	}
+	.sm-clean.sm-vertical a:hover, .sm-clean.sm-vertical a:focus, .sm-clean.sm-vertical a:active, .sm-clean.sm-vertical a.highlighted {
+		background: transparent;
+	}
+	.sm-clean.sm-vertical a.disabled {
+		background: #eeeeee;
+	}
+	.sm-clean.sm-vertical a span.sub-arrow {
+		right: 8px;
+		top: 50%;
+		margin-top: -5px;
+		border-width: 5px;
+		border-style: dashed dashed dashed solid;
+		border-color: transparent transparent transparent #555555;
+	}
+	.sm-clean.sm-vertical > li > ul:before,
+	.sm-clean.sm-vertical > li > ul:after {
+		display: none;
+	}
+	.sm-clean.sm-vertical ul a {
+		padding: 10px 20px;
+	}
+	.sm-clean.sm-vertical ul a:hover, .sm-clean.sm-vertical ul a:focus, .sm-clean.sm-vertical ul a:active, .sm-clean.sm-vertical ul a.highlighted {
+		background: #eeeeee;
+	}
+	.sm-clean.sm-vertical ul a.disabled {
+		background: white;
+	}
+}
+
+.main-menu-btn {
+	position: relative;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	text-indent: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	display: none;
+}
+/* hamburger icon */
+.main-menu-btn-icon, .main-menu-btn-icon:before, .main-menu-btn-icon:after {
+	position: absolute;
+	top: 50%;
+	left: 2px;
+	height: 2px;
+	width: 24px;
+	background: #191970;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.main-menu-btn-icon:before {
+	content: '';
+	top: -7px;
+	left: 0;
+}
+.main-menu-btn-icon:after {
+	content: '';
+	top: 7px;
+	left: 0;
+}
+/* x icon */
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
+	height: 0;
+	background: transparent;
+}
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before {
+	top: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after {
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+/* hide menu state checkbox (keep it visible to screen readers) */
+#main-menu-state {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(1px,1px,1px,1px);
+	visibility: hidden;
+}
+/* hide the menu in mobile view */
+#main-menu-state:not(:checked) ~ #main-menu {
+	display: none;
+}
+#main-menu-state:checked ~ #main-menu {
+	display: block;
+}
+
+.ta-landing-header {
+	display: block;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.ta-landing-header .head-item {
+	display: flex;
+		align-items: center;
+}
+.purchase-button {
+	align-self: center;
+}
+.purchase-button.no-menu {
+	margin-left: auto;
+}
+.purchase-button .button {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: .025em;
+	position: relative;
+	display: inline-block;
+	padding: 18px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+	transition: all .4s;
+	color: #fff;
+	background-color: #ff0036;
+}
+.purchase-button a.button:hover {
+	background-color: #007aff;
+	color: #fff;
+	transition: all .4s;
+}
+
+.ta-landing-img {
+	display: inline-block;
+}
+.ta-landing-img .overlay__content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	background-image: url(img/grid.png);
+	background-color: rgba(25,29,34,.7);
+	transition: all .4s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	pointer-events: none;
+}
+.ta-landing-img .overlay__action {
+	transition: opacity .4s,transform .4s;
+	opacity: 0;
+	transform: translate3d(0,10px,0);
+}
+.ta-landing-img.elementor-image a:hover .overlay__content{
+	opacity: 1;
+	transition: all .4s;
+}
+.ta-landing-img.elementor-image a:hover .overlay__action{
+	opacity: 1;
+	transform: translateZ(0);
+}
+.ta-landing-img.elementor-image .elementor-clickable, .ta-landing-img.elementor-image a {
+	position: relative;
+	display: block;
+}
+
+.ta-landing-img.elementor-image a .overlay__action {
+	background-color: transparent !important;
+	width: 80px;
+	height: 80px;
+	display: grid;
+	border: 2px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	padding: 0 !important;
+}
+.ta-landing-img.elementor-image a .overlay__action img {
+	width: 33px;
+	position: relative;
+	align-self: center;
+	justify-self: center;
+}
+.ta-landing-img.elementor-image .demo-title {
+	background-color: #fff;
+	padding: 15px;
+	box-shadow: 0 1px 0 rgba(0,0,0,.14);
+	margin-top: -3px;
+	z-index: 999;
+	position: relative;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	text-align: center;
+}
+
+.ta-landing-header .nonthing-menu {
+	justify-content: center;
+		margin: auto;
+		margin-right: 0;
+}
+.ta-landing-header .nonthing-menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.ta-landing-header .nonthing-menu ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.ta-landing-header .nonthing-menu ul li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+	.ta-landing-header .nonthing-menu {
+		margin: 0;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.ta-landing-header .head-item {
+		display: block;
+		text-align: center !important;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.ta-landing-header .head-item {
+		text-align: center !important;
+	}
+	.purchase-button .button {
+		display: none !important;
+	}
+}
+
+.ta-color-pick {
+	display: inline-block;
+	background-color: #efefef;
+	padding: 10px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.ta-color-pick input {
+	cursor: pointer;
+}
+
+.ta-color-pick .color-picker {
+	width: 60px;
+	margin-top: 5px;
+	height: 20px;
+	border: 1px solid #ddd;
+	margin-right: 5px;
+	box-shadow: none;
+}
+
+.ta-color-pick span.text {
+	display: inline-flex;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.sp-button-container {
+	display: none;
+}
+
+.grid__deco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.grid__deco path {
+    fill: none;
+    stroke: #111111;
+    stroke-width: 2px;
+}
+
+.grid--loading::before,
+.grid--loading::after {
+    content: '';
+    z-index: 1000;
+}
+
+.grid--loading::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.grid--loading::after {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 -20px;
+    border: 8px solid #383a41;
+    border-bottom-color: #565963;
+    border-radius: 50%;
+    animation: animLoader 0.8s linear forwards infinite;
+}
+
+.grid__reveal {
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+    background-color: #2c2d31;
+}
+
+@keyframes animLoader {
+    to { transform: rotate(360deg); }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  2c.  MAIN MENU
+/*-----------------------------------------------------------------------------------*/
+ ul.menus {
+    float: right;
+    padding: 0;
+    margin: 0 60px 0 0;
+    list-style: none;
+}
+ul.menus li {
+    float: left;
+}
+ul.menus li a {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 40px 20px;
+    display: block;
+    border-radius: 0;
+    z-index: 999;
+}
+#header.fixedwrap ul.menus li a {
+    padding: 20px 20px;
+}
+ul.menus li a:hover, ul.menus li a:active, ul.menus li.active a, ul.menus li.open a {
+    background-color: #191970;
+    color: #ffffff;
+}
+ul.menus li.page_item_has_children a:hover:after, ul.menus li.menu-item-has-children a:hover:after, ul.menus li.open a:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #191970;
+    content:"";
+    display: block;
+    margin: 0 auto -7px;
+    opacity: 100;
+    position: relative;
+    bottom: -40px;
+    width: 0;
+    z-index: 100000;
+}
+#header.fixedwrap ul.menus li.page_item_has_children a:hover:after, #header.fixedwrap ul.menus li.menu-item-has-children a:hover:after, #header.fixedwrap ul.menus li.open a:after {
+    bottom: -20px;
+}
+/* Sub Menu */
+ ul.menus li.page_item_has_children ul.children, ul.menus li.menu-item-has-children ul.sub-menu {
+    display: none;
+}
+ul.menus li.page_item_has_children:hover ul.children, ul.menus li.menu-item-has-children:hover ul.sub-menu {
+    display: block;
+}
+ul.menus li.page_item_has_children ul.children, ul.menus li.menu-item-has-children ul.sub-menu {
+    position: absolute;
+    background-color: #ffffff;
+    text-align: left;
+    width: 15em;
+    padding: 0;
+    list-style: none;
+    z-index: 999;
+}
+ul.menus li.page_item_has_children ul.children li, ul.menus li.menu-item-has-children ul.sub-menu li {
+    margin: 0 !important;
+    width: 100%;
+}
+ul.menus li.page_item_has_children ul.children li a, ul.menus li.menu-item-has-children ul.sub-menu li a {
+    background-color: transparent !important;
+    color: #000000;
+    padding: 0 !important;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+ul.menus li.page_item_has_children ul.children li:hover, ul.menus li.menu-item-has-children ul.sub-menu li:hover {
+    background-color: #191970 !important;
+    color: #ffffff;
+}
+ul.menus li.page_item_has_children ul.children li:hover a, ul.menus li.menu-item-has-children ul.sub-menu li:hover a {
+    color: #ffffff;
+}
+ul.menus li.page_item_has_children ul.children li a:after, ul.menus li.page_item_has_children ul.children li a:hover:after, ul.menus li.menu-item-has-children ul.sub-menu li a:after, ul.menus li.menu-item-has-children ul.sub-menu li a:hover:after {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.ta-landing-header .head-item {
+	    display: block;
+	    text-align: center!important;
+	    padding: 5px 0;
+	}
+	.ta-landing-header .nonthing-menu.head-item, .purchase-button.no-menu {display: none;}
+}
+@media (min-width: 769px) {
+	.sm-clean a span.sub-arrow {
+	    top: 50%;
+	    margin-top: -2px;
+	    right: 15px;
+	    width: 0;
+	    height: 0;
+	    border-width: 4px;
+	    border-style: solid dashed dashed dashed;
+	    border-color: #555 transparent transparent transparent;
+	    background: 0 0;
+	    -webkit-border-radius: 0;
+	    -moz-border-radius: 0;
+	    -ms-border-radius: 0;
+	    -o-border-radius: 0;
+	    border-radius: 0;
+	}
+	.sm-clean a:hover span.sub-arrow {
+		border-color: #ffffff transparent transparent transparent;
+	}
+}
+
+.grid-images img {
+	width: 100%;
+}
+.ta-landing-img.elementor-image a .overlay__action img {
+	width: 33px;
+}
